@@ -18,7 +18,7 @@ program H2_podvr
 
 
     print *, "v=2,j=3 energy (hartree)"
-    print '(5F12.6)', H2podvr%energy_rovib(0,:)
+    print '(5F12.6)', H2podvr%energy_rovib(2,3)
 
 contains
 
